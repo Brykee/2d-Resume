@@ -1,0 +1,190 @@
+<!-- Containers are used to contain, pad, and (sometimes) center the content within them. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- building mobile first webpages
+    loading content in via links, avoid large screen styles and complexity -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Bryce's Resume</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    
+    <!-- nav bar -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#accomplishments">Accomplishments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work History</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </nav>
+<div class="container px-5">
+    <header>
+      <h1>Bryce Richardson</h1>
+      <p>🚀 Welcome to my website!</p>
+    </header>
+
+    <section class="g-6 ">
+      <div class="bg-success p-2 text-light bg-opacity-25"><h2>📜 My Story</h2></div>
+      <br/>
+      <p>
+        Through part-time jobs, weekend gigs, personal projects, and months of
+        studying, I was able to obtain my Front-End certification through
+        CodeX Academy. I learned that with enough self-discipline, effort, and
+        time anything is possible.
+      </p>
+      <br/>
+      <img src="/Pics/FrontEndCertificate.jpg" width="700" height="500" />
+    </section>
+
+    <section class="container">
+      <div class="pt-5">
+      <div class="bg-success p-2 text-light bg-opacity-25 px-6"><h2 id="projects">👩🏽‍🚀 Projects</h2></div>
+      <br/>
+      <p>
+        <img src="/Pics/StudentAccounterLogin.png" width="500" height="600" /><br />
+        <a href="https://student-accounter.web.app">React Project</a><br />
+        This is a React website I developed that keeps track of students and
+        the number of tardies they have accumulated. It is stored in a
+        Database and can perform all CRUD oporations. It also showcases a
+        Login page with many other authentication features as well.
+      </p>
+      <br />
+      <p>
+        <img src="/Pics/ExtremeHangman.png" width="500" height="500" /><br />
+        <a href="https://extreme-hangman.herokuapp.com/">Javascript Project</a
+        ><br />
+        For this project, I practiced Javascript logic and how it connects to
+        the UI. It is a simple Hangman game that features buttons with letters
+        that turn blue or red depending on a correct guess. Try to guess from
+        a large array of intense words!
+      </p>
+      <br />
+      <p>
+        <img src="/Pics/NarutoWebsite.png" width="650" height="500" /><br />
+        <a href="https://naruto-character-creator.herokuapp.com/"
+          >HTML Project</a
+        ><br />
+        This HTML website has it all. I used complex CSS grids and reusable
+        code with SASS to create diverse web pages. Using Javascrpt I added a
+        stopwatch feature and a picture that makes an api call and displays on
+        the front page. Other features include a form page, responsive
+        breakpoints and a wheel that spins.
+      </p>
+    </div>
+    </section>
+    <section>
+      
+      <div class="pt-5">
+        <div class="bg-success p-2 text-light bg-opacity-25 px-6">
+      <h2 id="accomplishments">🏆 Accomplishments</h2>
+    </div>
+    <br/>
+      <p>
+        <li>2021 - 1st place in age division Borodash 4k</li>
+        <li>2020 - Media Student of the Year.</li>
+        <li>
+          2020 - Directed a show that won first place and recieved recognition
+          from the National Electronic Media Assosiation
+        </li>
+        <li>2015 - Voted Most Talented in High School</li>
+      </p>
+    </div>
+    </section>
+
+    <section class="left">
+      <div class="pt-5">
+        <div class="bg-success p-2 text-light bg-opacity-25 px-6">
+      <h2 id="work">🌮 Work History</h2>
+    </div>
+    <br/>
+      <h3>Audio Visual Student Technician</h3>
+      <p>
+        Providing front-line customer service and technical support for
+        professors, staff, and students. Fixing general issues with computers,
+        projectors, microphones, and soundboards. Responsible for setting up
+        and managing audio/visual technology for on-campus events.
+      </p>
+      <h3>Yesteryear</h3>
+      <p>
+        Scanning and editing photos. Transcribing and writing narratives from
+        interviews. Creating promotional content.
+      </p>
+      <h3>News Director</h3>
+      <p>
+        Editing video content for a student-only run newscast. duties include
+        in-studio interviews for the newscast, importing content from
+        reporters and other sources, working closely with producers, and
+        finally, directing a live newscast daily.
+      </p>
+    </div>
+    </section>
+  </div>
+    <footer>
+  <div class="pt-5">
+    <p class="text-center">
+      For More Info call: 
+      <a href="tel:+18005550199">615-796-9926</a>
+    </p>
+  </div>
+  <div class="clearfix">
+  </div>
+    </footer>
+    <div class="row dflex">
+      <a type="button" href="#nav" class="btn btn-warning btn-sm">
+        Back to Top
+      </button>
+      <script>
+ const tooltips = document.querySelectorAll('.tt')
+ tooltips.forEach(t => {
+   new bootstrap.Tooltip(t)
+ })
+        </script>
+  </body>
+  
+</html>

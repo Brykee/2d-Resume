@@ -1,0 +1,11 @@
+html {
+  background: url(https://wallpapercave.com/wp/Quvu2gR.jpg) no-repeat center
+    center fixed;
+  background-size: cover;
+}
+
+section {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
